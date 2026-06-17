@@ -1,611 +1,198 @@
-# <a href="https://www.linkedin.com/in/travis-young-516156102/">Travis Young</a>'s IT and Cybersecurity Project Portfolio 🔐
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&color=FFA500&center=true&vCenter=true&width=500&height=70&duration=2000&lines=Howdy!+👋;+I'm+Travis+Young!;" />
+</h1>
 
-I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
+<h3 align="center">👋 Agentic AI Security Engineer & GRC Engineer & Vulnerability Management </h3>
 
+<div align="center">
+    <a href="https://www.linkedin.com/in/trevinoparker"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+     <a href="https://www.youtube.com/@AgenticAITradeSkool1"><img width="100" height="30" alt="image" src="https://github.com/user-attachments/assets/910838d4-5917-4bbd-8abe-9820376a5781" /></a>
+    <a href="https://www.skool.com/agentic-ai-3504"><img width="100" height="30" alt="skool-logo-png_seeklogo-425793" src="https://github.com/user-attachments/assets/7a7ebe92-4d4a-4aa9-9872-265111d4b364" />
 
-## ⚠️ Vulnerability Management Projects
+![Visitors](https://komarev.com/ghpvc/?username=TrevinoParker&label=Visitors&color=brightgreen&style=for-the-badge)
 
-- **[Vulnerability Management Program Implementation](https://github.com/YoungTravis03/vulnerability-management-program-/tree/main)**
-- **[Programmatic Vulnerability Remediations (PowerShell, BASH, & Shell Commands)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
+</div>
 
-## 🚨 Threat Hunting and Security Operations
-
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/joshmadakor0/threat-hunting-scenario-tor)**
-
-<hr/>
-
-## 🤳 Connect With Me
-
-[<img align="left" alt="___________ | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="___________ | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="https://www.linkedin.com/in/travis-young-516156102/| LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="___________ | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
-[twitter]: https://twitter.com/___________
-[youtube]: https://www.youtube.com/c/___________
-[instagram]: https://www.instagram.com/___________
-[linkedin]: https://linkedin.com/in/https://www.linkedin.com/in/travis-young-516156102/
-
-<!--
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
--->
-# 🔍 EDR Investigation & Incident Response with Microsoft Defender
-> **Tools:** Microsoft Defender for Endpoint · Microsoft Sentinel · Azure VMs · KQL  
-> **Environment:** Live Production SOC — Josh Madakor's Cyber Range  
-> **Role:** Incident Responder / Security Engineer
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+  
 
 ---
 
-## 📋 Overview
+As a Agentic AI Engineer who specialize in securing **Multi-Agent, Agentic AI systems and LLM** against model poisoning, prompt injection, data exfiltration, and adversarial attacks. I apply **OWASP Top 10 for LLMs**, manage **IAM, RBAC, OPA/Rego**, secrets, and key management to ensure secure, compliant AI/ML pipelines.  
 
-Used **Microsoft Defender for Endpoint** as the primary EDR solution to onboard virtual machines, monitor endpoint telemetry, investigate security alerts, and respond to active threats. Conducted live incident response against real attacker activity within the Cyber Range shared SOC environment — not a simulation.
+I drive **security automation**, Vulnerability Management, GRC Engineer Audits and Incident Response, leveraging standards like **NIST AI RMF, ISO 27001, SOC 2, HIPAA, PCI-DSS, FedRAMP, CMMC**.  
 
----
+As a GRC Engineer, I use **AWS, Azure, GCP, Drata, Vanta, Tenable, Qualys, Defender, Python, and Bash** to automate governance, risk assessments, and remediation—reducing vulnerabilities and strengthening enterprise defenses.  
 
-## 🎯 Objectives
+<h2>👨‍💻 Cloud/Cybersecurity Projects:</h2>
 
-- Onboard Windows and Linux VMs to Defender for Endpoint for continuous protection
-- Investigate endpoint alerts and trace full attack chains using the Defender incident timeline
-- Perform containment actions including device isolation and process termination
-- Document incidents in structured IR report format
+### 🤖 Agentic AI Engineer Projects 🤖
 
----
+- **[Quantum_Agentic_AI OS](https://github.com/TrevinoParker7/Quantum_Agentic_AI_OS)**
+- **[Agentic AI_Production_Grade_Tester](https://github.com/TrevinoParker7/Production_Grade-_Tester)**
+- **[Agentic AI Anti_Hulluncination_Engine](https://github.com/TrevinoParker7/Help_Reduce_Halluncination)**
+- **[Agentic AI Atlas_Mitre_Resource-Development](https://github.com/TrevinoParker7/Atlas_Mitre_Resource-Development)**
+- **[Agentic AI Stock Trader](https://github.com/TrevinoParker7/Agentic_AI_Stock_Trader/tree/main)**
+- **[Agentic AI Identity](https://github.com/TrevinoParker7/AI_Identity)**
+- **[Agentic AI Red_Team_Scanner](https://github.com/TrevinoParker7/Red_Team_Scanner/tree/main)**
+- **[Agentic AI Shadow_AI_Control](https://github.com/TrevinoParker7/Shadow_AI_Control)**
+- **[Agentic AI SOC Analyst](https://github.com/TrevinoParker7/Agentic_AI_SOC_Analyst_Threat_Hunter/tree/main)**
+- **[Agentic AI Vulnerability_Management](https://github.com/TrevinoParker7/Agentic_AI_Vulnerability_Management/tree/main)**
+- **[Agentic AI Engineer Voice Mentor](https://github.com/TrevinoParker7/Agentic_AI_Engineer_Voice_Mentor)**
+- **[Agentic AI & LLM & AI/ML GRC Analyst Audit ](https://github.com/TrevinoParker7/AI-ML_Audit-Multiple_Agentic_AI_Audit/tree/main)**
+- **[Agentic_AI_LLM_Top_10_OWASP_Checker_With_AWS](https://github.com/TrevinoParker7/Agentic_AI_LLM_Top_10_OWASP_Checker_With_AWS)**
+- **[Agentic AI Voice Certifications Interviewer App Source Code Walk-Thru](https://codejourney61.gumroad.com/l/oneri)**
 
-## 🔧 Technical Breakdown
+### 🚨  GRC Engineer Projects 🚨
 
-### 1. Endpoint Onboarding
-- Deployed **Defender for Endpoint sensors** to Azure VMs via onboarding packages (local script and Intune methods)
-- Verified telemetry ingestion in the Microsoft 365 Defender portal
-- Configured device groups and tagging for asset classification
+- **[Azure_Security_Hub_Compliance](https://github.com/TrevinoParker7/Azure_Security_Hub_Compliance)**
+- **[GCP Automated Access Review](https://github.com/TrevinoParker7/GCP_Automated_Access_Review_GRC_Engineering)**
+- **[AWS_Automated_Access_Review](https://github.com/TrevinoParker7/AWS_Automated_Access_Review_1/tree/main/aws_automated_access_review_1)**
+- **[AWS_Security_Hub_Compliance_ Analyzer](https://github.com/TrevinoParker7/Security_Hub-_Compliance_Analyzer1)**
+- **[AWS_Security_Hub_To_Excel_Pipeline](https://github.com/TrevinoParker7/AWS_Security_Hub_To_Excel_Pipeline/tree/main)**
+- **[AWS_Password_Policy_Verification](https://github.com/TrevinoParker7/Password_Policy_Verification/blob/main/README.md)**
+- **[AWS_Inactive_Key_Rotation_Check](https://github.com/TrevinoParker7/Inactive_Key_Rotation_Check/tree/main)**
+- **[AWS_Cloudtrail_Validator](https://github.com/TrevinoParker7/Cloudtrail_Validator/blob/main/README.md)**
+- **[AWS_Cloud_Encryption_Evidence](https://github.com/TrevinoParker7/AWS_Cloud_Encryption_Evidence)**
+- **[AWS_Least_Privilege_Compliance_Checker](https://github.com/TrevinoParker7/AWS_Least_Privilege_Compliance_Checker)**
 
-### 2. Alert Investigation
-- Investigated alerts for:
-  - **Remote Code Execution (RCE)** — traced process tree from initial execution to child processes
-  - **Credential access** — identified LSASS access and suspicious PowerShell activity
-  - **Persistence mechanisms** — detected registry run keys and scheduled task creation
-- Used **Advanced Hunting (KQL)** to pivot from a single IOC to related events across device and user scope
-- Leveraged the **Incident Graph** to visualize attack chain relationships between alerts, users, devices, and IPs
 
-### 3. Containment & Remediation
-- Executed **device isolation** via Defender to cut off compromised VMs from the network while preserving forensic telemetry
-- Terminated malicious processes and removed persistence mechanisms (scheduled tasks, registry modifications)
-- Ran **full antivirus scans** post-containment and validated clean state before releasing isolation
-
----
-
-## 🔍 Sample Advanced Hunting Queries (KQL)
-
-**Suspicious Process Execution**
-```kql
-DeviceProcessEvents
-| where FileName in~ ("cmd.exe", "powershell.exe", "wscript.exe")
-| where InitiatingProcessFileName !in~ ("explorer.exe", "services.exe")
-| project Timestamp, DeviceName, FileName, ProcessCommandLine, InitiatingProcessFileName
-| order by Timestamp desc
-```
-
-**LSASS Access Attempts**
-```kql
-DeviceEvents
-| where ActionType == "OpenProcessApiCall"
-| where FileName =~ "lsass.exe"
-| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine
-```
-
-**Scheduled Task Creation**
-```kql
-DeviceEvents
-| where ActionType == "ScheduledTaskCreated"
-| project Timestamp, DeviceName, InitiatingProcessFileName, AdditionalFields
-| order by Timestamp desc
-```
-
-**Network Connections to Suspicious IPs**
-```kql
-DeviceNetworkEvents
-| where RemotePort in (4444, 1337, 8080, 9001)
-| project Timestamp, DeviceName, RemoteIP, RemotePort, InitiatingProcessFileName
-| order by Timestamp desc
-```
+### 🟣 PURPLE TEAM 🟣
+#### 🎯 Full SIEM
+- **[Implementing a SOC & Honeynet with Azure; Attacking and remediating it](https://github.com/trevinoparker7/Cloud-Soc)** *(Live Traffic)*
+- **[Why KQL Maps Are Essential for CEOs and Non-Tech People](https://github.com/TrevinoParker7/KQL-Map-Why-KQL-Maps-Are-Essential-for-CEOs-and-Non-Tech-People)**
+- **[Setting up Splunk SIEM; Attacking and remediating it](https://github.com/trevinoparker7/Splunk-SIEM)** *(Live Traffic)*  
 
 ---
 
-## 📋 Incident Response Process
-
-```
-1. DETECTION     →  Alert fires in Defender / Sentinel
-2. TRIAGE        →  Assess severity, affected assets, and initial scope
-3. INVESTIGATION →  Device timeline, advanced hunting, incident graph
-4. CONTAINMENT   →  Isolate device, block IOCs, disable accounts
-5. ERADICATION   →  Remove malware, persistence, and attacker artifacts
-6. RECOVERY      →  Validate clean state, re-integrate device
-7. DOCUMENTATION →  IR report with timeline, scope, actions, and lessons learned
-```
-
----
-
-## 📊 Key Results
-
-| Metric | Result |
-|--------|--------|
-| VMs onboarded | Windows Server + Ubuntu endpoints |
-| Incident types investigated | RCE, credential access, persistence, lateral movement |
-| Containment actions | Device isolation, process kill, persistence removal |
-| Documentation | Structured IR reports per incident |
-
----
-
-## 🧠 Skills Demonstrated
-
-- `Microsoft Defender for Endpoint` — onboarding, alert triage, device isolation
-- `Advanced Hunting (KQL)` — cross-asset threat pivoting
-- `Incident Response` — full IR lifecycle (detect → contain → recover → report)
-- `Forensic Analysis` — device timeline, process tree analysis
-- `Microsoft Sentinel` — SIEM/EDR integration for correlated investigation
-
----
-
-## 📁 Repo Structure
-
-```
-defender-edr-incident-response/
-├── README.md
-├── hunting-queries/
-│   ├── suspicious-processes.kql
-│   ├── lsass-access.kql
-│   ├── persistence-detection.kql
-│   └── network-anomalies.kql
-├── ir-process/
-│   └── incident-response-playbook.md
-└── reports/
-    └── ir-report-template.md
-```
-
----
-
-## 🔗 Related Projects
-
-- [Vulnerability Management Program](# 🛡️ Enterprise Vulnerability Management Program
-> **Tools:** Tenable Vulnerability Management · Microsoft Azure · Windows Server · Linux  
-> **Environment:** Live Production SOC — Josh Madakor's Cyber Range  
-> **Role:** Vulnerability Analyst / Security Engineer
-
----
-
-## 📋 Overview
-
-Deployed and managed an end-to-end vulnerability management program across a shared enterprise environment consisting of Windows and Linux virtual machines hosted in Microsoft Azure. Leveraged **Tenable Vulnerability Management** to conduct authenticated scans, analyze findings, and prioritize remediation based on CVSS severity scores and asset criticality.
-
----
-
-## 🎯 Objectives
-
-- Identify and catalog vulnerabilities across all in-scope Azure-hosted assets
-- Prioritize findings using risk-based scoring (CVSS + asset exposure)
-- Remediate or mitigate critical and high vulnerabilities within defined SLAs
-- Produce executive-level and technical remediation reports
-
----
-
-## 🔧 Technical Breakdown
-
-### 1. Scan Configuration
-- Configured **credentialed scan policies** in Tenable to maximize coverage and reduce false positives
-- Scoped scans to target Azure VM subnets and defined scan windows to minimize performance impact
-- Created asset groups and tags for organized reporting and priority tracking
-
-### 2. Analysis & Prioritization
-- Triaged findings by filtering on **Critical/High CVSS scores** and active exploit availability
-- Cross-referenced Tenable results with **NIST NVD** and vendor security advisories to validate severity
-- Used **VPR (Vulnerability Priority Rating)** alongside CVSS for risk-based prioritization
-
-### 3. Remediation
-- Applied OS patches, updated misconfigured services, and hardened default configurations on **Windows Server** and **Ubuntu** systems
-- Documented remediation steps and tracked progress through Tenable's remediation workflow
-- Re-ran **validation scans** post-remediation to confirm vulnerability closure
-
----
-
-## 📊 Key Results
-
-| Metric | Result |
-|--------|--------|
-| Vulnerabilities identified | 100+ across Windows & Linux assets |
-| Critical/High reduction | ~80% within scan cycle |
-| Scan type | Credentialed (authenticated) |
-| Validation | Post-remediation re-scan confirmed closure |
-
----
-
-## 🧠 Skills Demonstrated
-
-- `Tenable Vulnerability Management` — scan policy creation, asset management, dashboards
-- `CVSS & VPR scoring` — risk-based prioritization
-- `Windows Server & Linux hardening` — patch management, service configuration
-- `Microsoft Azure` — VM management, network scoping
-- `Reporting` — technical and executive-level remediation documentation
-
----
-
-## 📁 Repo Structure
-
-```
-vulnerability-management-program/
-├── README.md
-├── scan-policies/
-│   └── credentialed-scan-policy-notes.md
-├── remediation/
-│   └── remediation-tracker-template.md
-└── reports/
-    └── sample-executive-summary.md
-```
-
----
-
-## 🔗 Related Projects
-
-- [SIEM & Threat Detection with Microsoft Sentinel](../sentinel-siem-threat-detection)
-- [EDR Incident Response with Microsoft Defender](# 🔍 EDR Investigation & Incident Response with Microsoft Defender
-> **Tools:** Microsoft Defender for Endpoint · Microsoft Sentinel · Azure VMs · KQL  
-> **Environment:** Live Production SOC — Josh Madakor's Cyber Range  
-> **Role:** Incident Responder / Security Engineer
-
----
-
-## 📋 Overview
-
-Used **Microsoft Defender for Endpoint** as the primary EDR solution to onboard virtual machines, monitor endpoint telemetry, investigate security alerts, and respond to active threats. Conducted live incident response against real attacker activity within the Cyber Range shared SOC environment — not a simulation.
-
----
-
-## 🎯 Objectives
-
-- Onboard Windows and Linux VMs to Defender for Endpoint for continuous protection
-- Investigate endpoint alerts and trace full attack chains using the Defender incident timeline
-- Perform containment actions including device isolation and process termination
-- Document incidents in structured IR report format
-
----
-
-## 🔧 Technical Breakdown
-
-### 1. Endpoint Onboarding
-- Deployed **Defender for Endpoint sensors** to Azure VMs via onboarding packages (local script and Intune methods)
-- Verified telemetry ingestion in the Microsoft 365 Defender portal
-- Configured device groups and tagging for asset classification
-
-### 2. Alert Investigation
-- Investigated alerts for:
-  - **Remote Code Execution (RCE)** — traced process tree from initial execution to child processes
-  - **Credential access** — identified LSASS access and suspicious PowerShell activity
-  - **Persistence mechanisms** — detected registry run keys and scheduled task creation
-- Used **Advanced Hunting (KQL)** to pivot from a single IOC to related events across device and user scope
-- Leveraged the **Incident Graph** to visualize attack chain relationships between alerts, users, devices, and IPs
-
-### 3. Containment & Remediation
-- Executed **device isolation** via Defender to cut off compromised VMs from the network while preserving forensic telemetry
-- Terminated malicious processes and removed persistence mechanisms (scheduled tasks, registry modifications)
-- Ran **full antivirus scans** post-containment and validated clean state before releasing isolation
-
----
-
-## 🔍 Sample Advanced Hunting Queries (KQL)
-
-**Suspicious Process Execution**
-```kql
-DeviceProcessEvents
-| where FileName in~ ("cmd.exe", "powershell.exe", "wscript.exe")
-| where InitiatingProcessFileName !in~ ("explorer.exe", "services.exe")
-| project Timestamp, DeviceName, FileName, ProcessCommandLine, InitiatingProcessFileName
-| order by Timestamp desc
-```
-
-**LSASS Access Attempts**
-```kql
-DeviceEvents
-| where ActionType == "OpenProcessApiCall"
-| where FileName =~ "lsass.exe"
-| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine
-```
-
-**Scheduled Task Creation**
-```kql
-DeviceEvents
-| where ActionType == "ScheduledTaskCreated"
-| project Timestamp, DeviceName, InitiatingProcessFileName, AdditionalFields
-| order by Timestamp desc
-```
-
-**Network Connections to Suspicious IPs**
-```kql
-DeviceNetworkEvents
-| where RemotePort in (4444, 1337, 8080, 9001)
-| project Timestamp, DeviceName, RemoteIP, RemotePort, InitiatingProcessFileName
-| order by Timestamp desc
-```
-
----
-
-## 📋 Incident Response Process
-
-```
-1. DETECTION     →  Alert fires in Defender / Sentinel
-2. TRIAGE        →  Assess severity, affected assets, and initial scope
-3. INVESTIGATION →  Device timeline, advanced hunting, incident graph
-4. CONTAINMENT   →  Isolate device, block IOCs, disable accounts
-5. ERADICATION   →  Remove malware, persistence, and attacker artifacts
-6. RECOVERY      →  Validate clean state, re-integrate device
-7. DOCUMENTATION →  IR report with timeline, scope, actions, and lessons learned
-```
-
----
-
-## 📊 Key Results
-
-| Metric | Result |
-|--------|--------|
-| VMs onboarded | Windows Server + Ubuntu endpoints |
-| Incident types investigated | RCE, credential access, persistence, lateral movement |
-| Containment actions | Device isolation, process kill, persistence removal |
-| Documentation | Structured IR reports per incident |
-
----
-
-## 🧠 Skills Demonstrated
-
-- `Microsoft Defender for Endpoint` — onboarding, alert triage, device isolation
-- `Advanced Hunting (KQL)` — cross-asset threat pivoting
-- `Incident Response` — full IR lifecycle (detect → contain → recover → report)
-- `Forensic Analysis` — device timeline, process tree analysis
-- `Microsoft Sentinel` — SIEM/EDR integration for correlated investigation
-
----
-
-## 📁 Repo Structure
-
-```
-defender-edr-incident-response/
-├── README.md
-├── hunting-queries/
-│   ├── suspicious-processes.kql
-│   ├── lsass-access.kql
-│   ├── persistence-detection.kql
-│   └── network-anomalies.kql
-├── ir-process/
-│   └── incident-response-playbook.md
-└── reports/
-    └── ir-report-template.md
-```
-
----
-
-## 🔗 Related Projects
-
-- [Vulnerability Management Program](../vulnerability-management-program)
-- [SIEM & Threat Detection with Microsoft Sentinel](../sentinel-siem-threat-detection)
-- [AI-Powered Security Tooling — LLM & Agentic AI](# 🤖 AI-Powered Security Tooling — LLM API & Agentic AI
-> **Tools:** OpenAI API · Anthropic Claude API · Python · Microsoft Sentinel · Azure Functions  
-> **Environment:** Cyber Range AI/Agentic AI Track  
-> **Role:** AI Security Engineer / Developer
-
----
-
-## 📋 Overview
-
-Built AI-powered security tooling by integrating **Large Language Model (LLM) APIs** into a SOC workflow. Developed an **agentic AI pipeline** capable of autonomously analyzing security alerts, querying log sources, enriching findings, and generating structured incident reports — dramatically reducing analyst triage time.
-
----
-
-## 🎯 Objectives
-
-- Integrate LLM APIs (OpenAI / Claude) into the SOC for automated alert summarization
-- Build an agentic AI assistant that queries Sentinel and returns plain-language threat summaries
-- Apply prompt engineering best practices for security analysis tasks
-- Understand and defend against LLM-specific attack surfaces (prompt injection)
-
----
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    AGENTIC AI PIPELINE                  │
-│                                                         │
-│  Sentinel Alert  →  [AI Agent]  →  Incident Report     │
-│       │                │                                │
-│       │         ┌──────┴──────┐                        │
-│       │         │  Tool Use   │                        │
-│       │         ├─────────────┤                        │
-│       │         │ • Query KQL │                        │
-│       │         │ • IP Lookup │                        │
-│       │         │ • CVE Search│                        │
-│       └────────►│ • Hash Check│                        │
-│                 └─────────────┘                        │
-└─────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🔧 Technical Breakdown
-
-### 1. LLM API Integration
-- Used **OpenAI GPT-4** and **Anthropic Claude** APIs via Python to build an alert summarization tool
-- Converts raw Sentinel JSON alerts into concise, human-readable incident briefs with structured output
-- Engineered **system prompts** to constrain model behavior to security analysis and produce consistent JSON + narrative output
-
-### 2. Agentic AI Pipeline
-Multi-step autonomous workflow:
-1. **Receive** — Ingest raw alert payload from Sentinel webhook
-2. **Query** — Agent calls Log Analytics API to retrieve related events via KQL
-3. **Enrich** — Perform IOC lookups (IP reputation, file hash checks, CVE details)
-4. **Analyze** — LLM synthesizes all context into a threat assessment
-5. **Report** — Generate structured draft incident report ready for analyst review
-
-Implemented **function calling / tool use** to allow the agent to interact with external APIs autonomously without hardcoded logic.
-
-### 3. LLM Security (Prompt Injection Defense)
-- Studied and tested **prompt injection** scenarios where attacker-controlled log data attempts to hijack model behavior
-- Implemented **input sanitization** to strip potential injection payloads from log content before passing to LLM
-- Added **output validation** layer to enforce expected response schema and reject anomalous model outputs
-- Applied **least-privilege prompt design** — system prompt explicitly limits model actions and scope
-
----
-
-## 💻 Code Samples
-
-**Alert Summarization — Core API Call**
-```python
-import anthropic
-
-client = anthropic.Anthropic()
-
-def summarize_alert(alert_json: dict) -> dict:
-    system_prompt = """You are a SOC analyst assistant. Analyze the security alert 
-    and return a JSON object with keys: severity, summary, affected_assets, 
-    recommended_actions, and confidence_score. Be concise and factual."""
+### 🔵 BLUE TEAM 🔵
+#### ⚠️ Vulnerability Management Projects
+- **[Full Vulnerability Management Program Implementation](https://github.com/trevinoparker7/vulnerability-management-program)**  
+- **[20+ STIG Implementations Remediations (PowerShell)](https://github.com/trevinoparker7/stig-implementations)**
+- **[10+ Ensure-Audit-Remediation-Win-Server for Password, Encryption, Admin (PowerShell)](https://github.com/TrevinoParker7/Audit-Remediation-Win-Server/tree/main)**
+- **[15+ Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/TrevinoParker7/Remediation-Automation-Bash-And-Powershell/tree/main/automation)** 
+- **[Vulnerability Management in Azure Sandbox](https://github.com/trevinoparker7/nessus-vulnerability/blob/main/README.md)**
+ 
+#### 🚨 Threat Hunting & Security Operations
+- **[Incident Response: Phishing via Fake Software Update ](https://github.com/TrevinoParker7/PhishingSoftwareUpdate)**
+- **[Incident Response: Threat Hunting (Operation Jackal Spear) ](https://github.com/TrevinoParker7/Threat-Hunting-Scenario-Operation-Jackal-Spear/tree/main)**
+- **[Incident Response: Zero-Day Ransomware (PwnCrypt)](https://github.com/TrevinoParker7/Zero-Day-Ransomware-PwnCrypt-Outbreak/blob/main/README.md)**
+- **[Incident Response: Remote Code Execution Detected](https://github.com/TrevinoParker7/Remote-Code-Execution-Detection/blob/main/README.md)**
+- **[Threat Hunting Incident: Tor Browser Usage](https://github.com/trevinoparker7/threat-hunting-scenario-tor)**
+- **[Incident Response: Create Alert Rule (Brute Force Attempt Detection)](https://github.com/TrevinoParker7/Create-Alert-Rule-Brute-Force-Attempt-Detection-/blob/main/README.md)**
+- **[Incident Response: Email-Phishing (Urgent Account Suspended)](https://github.com/TrevinoParker7/Incident-Response-Email-Phishing-/blob/main/README.md)**
+- **[Incident Response: Email Analysis (Phishing)](https://github.com/TrevinoParker7/Email-Analysis-Phishing)**
+- **[Incident Response: Create Alert Rule (PowerShell Suspicious Web Request)](https://github.com/TrevinoParker7/Create-Alert-Rule-PowerShell-Suspicious-Web-Request-/tree/main)**
+- **[Incident Response: Create Alert Rule (Potential Impossible Travel)](https://github.com/TrevinoParker7/Potential-Impossible-Travel-Alert/tree/main)**
+- **[Threat Hunting Incident: Data Exfiltration from PIP'd Employee](https://github.com/TrevinoParker7/Data-Exfiltration/tree/main)**
+- **[Threat Hunting Incident: Public Facing IP Detection](https://github.com/TrevinoParker7/DeviceInfo-Public-Ip-Address-Detected)**
+- **[Threat Hunting Incident: Sudden Network Slowdowns](https://github.com/TrevinoParker7/Sudden-Network-Slowdowns/tree/main)**
+- **[Compliance Framework Implementation (NIST)](https://github.com/trevinoparker7/NIST-Compliance/tree/main)**   
     
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=1024,
-        system=system_prompt,
-        messages=[{
-            "role": "user",
-            "content": f"Analyze this alert: {str(alert_json)}"
-        }]
-    )
-    return response.content[0].text
-```
+### GRC Analyst ###
+- **[Corporate Cybersecurity Assessment utilizing NIST CyberSecurity Framework (CSF) 2.0](https://github.com/TrevinoParker7/GRC-Analyst-Project)**
 
-**Agentic Tool Use — KQL Query Function**
-```python
-tools = [
-    {
-        "name": "run_kql_query",
-        "description": "Query Microsoft Sentinel Log Analytics for related security events",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "query": {"type": "string", "description": "KQL query to execute"},
-                "timespan": {"type": "string", "description": "Time range e.g. PT1H, P1D"}
-            },
-            "required": ["query"]
-        }
-    },
-    {
-        "name": "lookup_ip_reputation",
-        "description": "Check IP address reputation against threat intelligence feeds",
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "ip_address": {"type": "string"}
-            },
-            "required": ["ip_address"]
-        }
-    }
-]
-```
+###   IT Projects
+- **[Active Directory Lab: Creating 1000 Users with PowerShell](https://github.com/trevinoparker7/AD-Lab)**
 
-**Input Sanitization — Prompt Injection Defense**
-```python
-import re
 
-INJECTION_PATTERNS = [
-    r"ignore (previous|above|all) instructions",
-    r"you are now",
-    r"new system prompt",
-    r"disregard your",
-    r"act as"
-]
+### Agentic AI
+<div>
+    <img src="https://img.shields.io/badge/-MCP_(Model_Context_Protocol)-283593?&style=for-the-badge&logo=protocols&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LangChain-1C3C3C?&style=for-the-badge&logo=chainlink&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LangGraph-6C63FF?&style=for-the-badge&logo=graphql&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LlamaIndex-FF9900?&style=for-the-badge&logo=apache&logoColor=white" />
+    <img src="https://img.shields.io/badge/-AutoGPT-000000?&style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Autogen-FF6F00?&style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CrewAI-3C6E71?&style=for-the-badge&logo=airplayaudio&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OpenAI_API-412991?&style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OpenAI_SDK-005BBB?&style=for-the-badge&logo=javascript&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Anthropic_Claude-00897B?&style=for-the-badge&logo=anthropic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Vector_Databases-004D40?&style=for-the-badge&logo=neo4j&logoColor=white" />
+    <img src="https://img.shields.io/badge/-RAG_(Retrieval_Augmented_Generation)-37474F?&style=for-the-badge&logo=knowledgebase&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Multi_Agent_Systems-6A1B9A?&style=for-the-badge&logo=airbnb&logoColor=white" />
+    <img src="https://img.shields.io/badge/-n8n-20A37F?&style=for-the-badge&logo=n8n&logoColor=white" />
+</div>
 
-def sanitize_log_input(log_data: str) -> str:
-    for pattern in INJECTION_PATTERNS:
-        log_data = re.sub(pattern, "[REDACTED]", log_data, flags=re.IGNORECASE)
-    return log_data[:4000]  # Enforce max input length
-```
+### AI/ML Security
+<div>
+    <img src="https://img.shields.io/badge/-Model_Poisoning_Defense-8E24AA?&style=for-the-badge&logo=tensorflow&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Prompt_Injection_Mitigation-1565C0?&style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Adversarial_ML_Testing-FF6F00?&style=for-the-badge&logo=pytorch&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Red_Teaming-AE0000?&style=for-the-badge&logo=burp-suite&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Data_Exfiltration_Prevention-283593?&style=for-the-badge&logo=databricks&logoColor=white" />
+</div>
 
----
+### AI Agent & Multi-Agent Security
+<div>
+    <img src="https://img.shields.io/badge/-Secure_Agent_Runtime-00695C?&style=for-the-badge&logo=airplayaudio&logoColor=white" />
+    <img src="https://img.shields.io/badge/-RBAC-512DA8?&style=for-the-badge&logo=auth0&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Guardrails-0277BD?&style=for-the-badge&logo=guardrails&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Audit_Logging-4E342E?&style=for-the-badge&logo=elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OPA/Rego-455A64?&style=for-the-badge&logo=opentelemetry&logoColor=white" />
+</div>
 
-## 📊 Key Results
+### IAM & Policy-as-Code
+<div>
+    <img src="https://img.shields.io/badge/-IAM-1976D2?&style=for-the-badge&logo=okta&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Secrets_Governance-5D4037?&style=for-the-badge&logo=1password&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Key_Management-2E7D32?&style=for-the-badge&logo=keybase&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Policy_as_Code-FF5722?&style=for-the-badge&logo=terraform&logoColor=white" />
+</div>
 
-| Metric | Result |
-|--------|--------|
-| Triage time reduction | 15 min → < 60 seconds per alert |
-| API integrations | OpenAI GPT-4, Anthropic Claude, Sentinel Log Analytics |
-| Agentic tools implemented | KQL query, IP reputation, CVE lookup, hash check |
-| Security hardening | Prompt injection detection + output validation |
+### Security Automation
+<div>
+    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?&style=for-the-badge&logo=pytorch&logoColor=white" />
+    <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?&style=for-the-badge&logo=tensorflow&logoColor=white" />
+    <img src="https://img.shields.io/badge/-PowerShell-2E6DBF?&style=for-the-badge&logo=powershell&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
+</div>
 
----
+### Cloud & DevSecOps
+<div>
+    <img src="https://img.shields.io/badge/-Azure-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Zero_Trust-263238?&style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Automated_Compliance-6A1B9A?&style=for-the-badge&logo=gitlab&logoColor=white" />
+</div>
 
-## 🧠 Skills Demonstrated
+### Governance & Compliance
+<div>
+    <img src="https://img.shields.io/badge/-NIST-1565C0?&style=for-the-badge&logo=nist&logoColor=white" />
+    <img src="https://img.shields.io/badge/-ISO_27001-455A64?&style=for-the-badge&logo=iso&logoColor=white" />
+    <img src="https://img.shields.io/badge/-SOC_2-283593?&style=for-the-badge&logo=datadog&logoColor=white" />
+    <img src="https://img.shields.io/badge/-PCI_DSS-00838F?&style=for-the-badge&logo=visa&logoColor=white" />
+    <img src="https://img.shields.io/badge/-HIPAA-AD1457?&style=for-the-badge&logo=heartbeat&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CMMC-1E88E5?&style=for-the-badge&logo=shield&logoColor=white" />
+    <img src="https://img.shields.io/badge/-SOX-5E35B1?&style=for-the-badge&logo=ledger&logoColor=white" />
+</div>
 
-- `LLM API Integration` — OpenAI & Anthropic Claude APIs, chat completions, tool use
-- `Prompt Engineering` — system prompts, structured output, role constraints
-- `Agentic AI` — multi-step autonomous pipelines, function calling, tool orchestration
-- `LLM Security` — prompt injection attack/defense, input sanitization, output validation
-- `Python` — REST API calls, JSON processing, async workflows
-- `Microsoft Sentinel` — webhook integration, KQL, Log Analytics API
+### SIEM
+<div>
+    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+</div>
 
----
+### Vulnerability Management
+<div>
+    <img src="https://img.shields.io/badge/-Tenable-3E4D88?&style=for-the-badge&logo=Tenable&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Qualys-0072C6?&style=for-the-badge&logo=qualys&logoColor=white" />
+</div>
 
-## 📁 Repo Structure
 
-```
-llm-agentic-security-tooling/
-├── README.md
-├── src/
-│   ├── alert_summarizer.py       # Core LLM summarization logic
-│   ├── agentic_pipeline.py       # Multi-step agentic workflow
-│   ├── tools/
-│   │   ├── kql_runner.py         # Sentinel KQL query tool
-│   │   ├── ip_lookup.py          # IP reputation enrichment
-│   │   └── cve_search.py         # CVE detail lookup
-│   └── security/
-│       ├── input_sanitizer.py    # Prompt injection defense
-│       └── output_validator.py   # Response schema validation
-├── prompts/
-│   └── system_prompts.md         # Engineered prompts library
-├── tests/
-│   └── injection_tests.py        # Adversarial prompt test cases
-└── docs/
-    └── architecture.md
-```
 
----
+<h2>📜 Certifications:</h2>
+- SEC+: Expected Dec. 2025 <br>- CompTIA CySA+: Expected Jul. 2026 
 
-## ⚠️ Security Considerations
+## 🤳 Connect with Me:
+[![LinkedIn](https://www.linkedin.com/in/trevinoparker](https://www.linkedin.com/in/travis-young-516156102/))
 
-| Risk | Mitigation |
-|------|-----------|
-| Prompt injection via log data | Input sanitization + pattern detection |
-| Sensitive data in LLM context | PII stripping before API call |
-| Model hallucination | Output schema validation + confidence scoring |
-| API key exposure | Environment variables, never hardcoded |
-| Excessive model autonomy | Human-in-the-loop review before any action |
 
----
-
-## 🔗 Related Projects
-
-- [Vulnerability Management Program](../vulnerability-management-program)
-- [SIEM & Threat Detection with Microsoft Sentinel](../sentinel-siem-threat-detection)
-- [EDR Incident Response with Microsoft Defender](../defender-edr-incident-response)
-
----
-
-> 💼 *Completed as part of Josh Madakor's Cyber Range — AI/Agentic AI track. Demonstrates the integration of modern LLM capabilities with enterprise security operations.*)
-
----
-
-> 💼 *Completed as part of Josh Madakor's Cyber Range — a live production SOC environment with real attacker activity and enterprise-grade security tools.*)
-- [AI-Powered Security Tooling — LLM & Agentic AI](../llm-agentic-security-tooling)
-
----
-
-> 💼 *Completed as part of Josh Madakor's Cyber Range — a live production SOC environment with enterprise-grade security tools.*)
-- [SIEM & Threat Detection with Microsoft Sentinel](../sentinel-siem-threat-detection)
-- [AI-Powered Security Tooling — LLM & Agentic AI](../llm-agentic-security-tooling)
-
----
-
-> 💼 *Completed as part of Josh Madakor's Cyber Range — a live production SOC environment with real attacker activity and enterprise-grade security tools.*
+![Quote](https://github-readme-quotes-bay.vercel.app/quote?theme=tokyonight&animation=default&quoteCategory=motivational)
