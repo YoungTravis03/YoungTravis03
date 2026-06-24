@@ -32,167 +32,111 @@ As a GRC Engineer, I use **AWS, Azure, GCP, Drata, Vanta, Tenable, Qualys, Defen
 
 <h2>👨‍💻 Cloud/Cybersecurity Projects:</h2>
 
-### 🤖 Agentic AI Engineer Projects 🤖
-
-- **[Quantum_Agentic_AI OS](https://github.com/TrevinoParker7/Quantum_Agentic_AI_OS)**
-- **[Agentic AI_Production_Grade_Tester](https://github.com/TrevinoParker7/Production_Grade-_Tester)**
-- **[Agentic AI Anti_Hulluncination_Engine](https://github.com/TrevinoParker7/Help_Reduce_Halluncination)**
-- **[Agentic AI Atlas_Mitre_Resource-Development](https://github.com/TrevinoParker7/Atlas_Mitre_Resource-Development)**
-- **[Agentic AI Stock Trader](https://github.com/TrevinoParker7/Agentic_AI_Stock_Trader/tree/main)**
-- **[Agentic AI Identity](https://github.com/TrevinoParker7/AI_Identity)**
-- **[Agentic AI Red_Team_Scanner](https://github.com/TrevinoParker7/Red_Team_Scanner/tree/main)**
-- **[Agentic AI Shadow_AI_Control](https://github.com/TrevinoParker7/Shadow_AI_Control)**
-- **[Agentic AI SOC Analyst](https://github.com/TrevinoParker7/Agentic_AI_SOC_Analyst_Threat_Hunter/tree/main)**
-- **[Agentic AI Vulnerability_Management](https://github.com/TrevinoParker7/Agentic_AI_Vulnerability_Management/tree/main)**
-- **[Agentic AI Engineer Voice Mentor](https://github.com/TrevinoParker7/Agentic_AI_Engineer_Voice_Mentor)**
-- **[Agentic AI & LLM & AI/ML GRC Analyst Audit ](https://github.com/TrevinoParker7/AI-ML_Audit-Multiple_Agentic_AI_Audit/tree/main)**
-- **[Agentic_AI_LLM_Top_10_OWASP_Checker_With_AWS](https://github.com/TrevinoParker7/Agentic_AI_LLM_Top_10_OWASP_Checker_With_AWS)**
-- **[Agentic AI Voice Certifications Interviewer App Source Code Walk-Thru](https://codejourney61.gumroad.com/l/oneri)**
-
-### 🚨  GRC Engineer Projects 🚨
-
-- **[Azure_Security_Hub_Compliance](https://github.com/TrevinoParker7/Azure_Security_Hub_Compliance)**
-- **[GCP Automated Access Review](https://github.com/TrevinoParker7/GCP_Automated_Access_Review_GRC_Engineering)**
-- **[AWS_Automated_Access_Review](https://github.com/TrevinoParker7/AWS_Automated_Access_Review_1/tree/main/aws_automated_access_review_1)**
-- **[AWS_Security_Hub_Compliance_ Analyzer](https://github.com/TrevinoParker7/Security_Hub-_Compliance_Analyzer1)**
-- **[AWS_Security_Hub_To_Excel_Pipeline](https://github.com/TrevinoParker7/AWS_Security_Hub_To_Excel_Pipeline/tree/main)**
-- **[AWS_Password_Policy_Verification](https://github.com/TrevinoParker7/Password_Policy_Verification/blob/main/README.md)**
-- **[AWS_Inactive_Key_Rotation_Check](https://github.com/TrevinoParker7/Inactive_Key_Rotation_Check/tree/main)**
-- **[AWS_Cloudtrail_Validator](https://github.com/TrevinoParker7/Cloudtrail_Validator/blob/main/README.md)**
-- **[AWS_Cloud_Encryption_Evidence](https://github.com/TrevinoParker7/AWS_Cloud_Encryption_Evidence)**
-- **[AWS_Least_Privilege_Compliance_Checker](https://github.com/TrevinoParker7/AWS_Least_Privilege_Compliance_Checker)**
-
-
-### 🟣 PURPLE TEAM 🟣
-#### 🎯 Full SIEM
-- **[Implementing a SOC & Honeynet with Azure; Attacking and remediating it](https://github.com/trevinoparker7/Cloud-Soc)** *(Live Traffic)*
-- **[Why KQL Maps Are Essential for CEOs and Non-Tech People](https://github.com/TrevinoParker7/KQL-Map-Why-KQL-Maps-Are-Essential-for-CEOs-and-Non-Tech-People)**
-- **[Setting up Splunk SIEM; Attacking and remediating it](https://github.com/trevinoparker7/Splunk-SIEM)** *(Live Traffic)*  
-
----
-
-### 🔵 BLUE TEAM 🔵
-#### ⚠️ Vulnerability Management Projects
-- **[Full Vulnerability Management Program Implementation](https://github.com/trevinoparker7/vulnerability-management-program)**  
-- **[20+ STIG Implementations Remediations (PowerShell)](https://github.com/trevinoparker7/stig-implementations)**
-- **[10+ Ensure-Audit-Remediation-Win-Server for Password, Encryption, Admin (PowerShell)](https://github.com/TrevinoParker7/Audit-Remediation-Win-Server/tree/main)**
-- **[15+ Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/TrevinoParker7/Remediation-Automation-Bash-And-Powershell/tree/main/automation)** 
-- **[Vulnerability Management in Azure Sandbox](https://github.com/trevinoparker7/nessus-vulnerability/blob/main/README.md)**
- 
-#### 🚨 Threat Hunting & Security Operations
-- **[Incident Response: Phishing via Fake Software Update ](https://github.com/TrevinoParker7/PhishingSoftwareUpdate)**
-- **[Incident Response: Threat Hunting (Operation Jackal Spear) ](https://github.com/TrevinoParker7/Threat-Hunting-Scenario-Operation-Jackal-Spear/tree/main)**
-- **[Incident Response: Zero-Day Ransomware (PwnCrypt)](https://github.com/TrevinoParker7/Zero-Day-Ransomware-PwnCrypt-Outbreak/blob/main/README.md)**
-- **[Incident Response: Remote Code Execution Detected](https://github.com/TrevinoParker7/Remote-Code-Execution-Detection/blob/main/README.md)**
-- **[Threat Hunting Incident: Tor Browser Usage](https://github.com/trevinoparker7/threat-hunting-scenario-tor)**
-- **[Incident Response: Create Alert Rule (Brute Force Attempt Detection)](https://github.com/TrevinoParker7/Create-Alert-Rule-Brute-Force-Attempt-Detection-/blob/main/README.md)**
-- **[Incident Response: Email-Phishing (Urgent Account Suspended)](https://github.com/TrevinoParker7/Incident-Response-Email-Phishing-/blob/main/README.md)**
-- **[Incident Response: Email Analysis (Phishing)](https://github.com/TrevinoParker7/Email-Analysis-Phishing)**
-- **[Incident Response: Create Alert Rule (PowerShell Suspicious Web Request)](https://github.com/TrevinoParker7/Create-Alert-Rule-PowerShell-Suspicious-Web-Request-/tree/main)**
-- **[Incident Response: Create Alert Rule (Potential Impossible Travel)](https://github.com/TrevinoParker7/Potential-Impossible-Travel-Alert/tree/main)**
-- **[Threat Hunting Incident: Data Exfiltration from PIP'd Employee](https://github.com/TrevinoParker7/Data-Exfiltration/tree/main)**
-- **[Threat Hunting Incident: Public Facing IP Detection](https://github.com/TrevinoParker7/DeviceInfo-Public-Ip-Address-Detected)**
-- **[Threat Hunting Incident: Sudden Network Slowdowns](https://github.com/TrevinoParker7/Sudden-Network-Slowdowns/tree/main)**
-- **[Compliance Framework Implementation (NIST)](https://github.com/trevinoparker7/NIST-Compliance/tree/main)**   
-    
-### GRC Analyst ###
-- **[Corporate Cybersecurity Assessment utilizing NIST CyberSecurity Framework (CSF) 2.0](https://github.com/TrevinoParker7/GRC-Analyst-Project)**
-
-###   IT Projects
-- **[Active Directory Lab: Creating 1000 Users with PowerShell](https://github.com/trevinoparker7/AD-Lab)**
-
-
-### Agentic AI
-<div>
-    <img src="https://img.shields.io/badge/-MCP_(Model_Context_Protocol)-283593?&style=for-the-badge&logo=protocols&logoColor=white" />
-    <img src="https://img.shields.io/badge/-LangChain-1C3C3C?&style=for-the-badge&logo=chainlink&logoColor=white" />
-    <img src="https://img.shields.io/badge/-LangGraph-6C63FF?&style=for-the-badge&logo=graphql&logoColor=white" />
-    <img src="https://img.shields.io/badge/-LlamaIndex-FF9900?&style=for-the-badge&logo=apache&logoColor=white" />
-    <img src="https://img.shields.io/badge/-AutoGPT-000000?&style=for-the-badge&logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Autogen-FF6F00?&style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/-CrewAI-3C6E71?&style=for-the-badge&logo=airplayaudio&logoColor=white" />
-    <img src="https://img.shields.io/badge/-OpenAI_API-412991?&style=for-the-badge&logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/-OpenAI_SDK-005BBB?&style=for-the-badge&logo=javascript&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Anthropic_Claude-00897B?&style=for-the-badge&logo=anthropic&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Vector_Databases-004D40?&style=for-the-badge&logo=neo4j&logoColor=white" />
-    <img src="https://img.shields.io/badge/-RAG_(Retrieval_Augmented_Generation)-37474F?&style=for-the-badge&logo=knowledgebase&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Multi_Agent_Systems-6A1B9A?&style=for-the-badge&logo=airbnb&logoColor=white" />
-    <img src="https://img.shields.io/badge/-n8n-20A37F?&style=for-the-badge&logo=n8n&logoColor=white" />
-</div>
-
-### AI/ML Security
-<div>
-    <img src="https://img.shields.io/badge/-Model_Poisoning_Defense-8E24AA?&style=for-the-badge&logo=tensorflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Prompt_Injection_Mitigation-1565C0?&style=for-the-badge&logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Adversarial_ML_Testing-FF6F00?&style=for-the-badge&logo=pytorch&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Red_Teaming-AE0000?&style=for-the-badge&logo=burp-suite&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Data_Exfiltration_Prevention-283593?&style=for-the-badge&logo=databricks&logoColor=white" />
-</div>
-
-### AI Agent & Multi-Agent Security
-<div>
-    <img src="https://img.shields.io/badge/-Secure_Agent_Runtime-00695C?&style=for-the-badge&logo=airplayaudio&logoColor=white" />
-    <img src="https://img.shields.io/badge/-RBAC-512DA8?&style=for-the-badge&logo=auth0&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Guardrails-0277BD?&style=for-the-badge&logo=guardrails&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Audit_Logging-4E342E?&style=for-the-badge&logo=elastic&logoColor=white" />
-    <img src="https://img.shields.io/badge/-OPA/Rego-455A64?&style=for-the-badge&logo=opentelemetry&logoColor=white" />
-</div>
-
-### IAM & Policy-as-Code
-<div>
-    <img src="https://img.shields.io/badge/-IAM-1976D2?&style=for-the-badge&logo=okta&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Secrets_Governance-5D4037?&style=for-the-badge&logo=1password&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Key_Management-2E7D32?&style=for-the-badge&logo=keybase&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Policy_as_Code-FF5722?&style=for-the-badge&logo=terraform&logoColor=white" />
-</div>
-
-### Security Automation
-<div>
-    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?&style=for-the-badge&logo=pytorch&logoColor=white" />
-    <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?&style=for-the-badge&logo=tensorflow&logoColor=white" />
-    <img src="https://img.shields.io/badge/-PowerShell-2E6DBF?&style=for-the-badge&logo=powershell&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
-</div>
-
-### Cloud & DevSecOps
-<div>
-    <img src="https://img.shields.io/badge/-Azure-0078D4?&style=for-the-badge&logo=microsoftazure&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zero_Trust-263238?&style=for-the-badge&logo=vercel&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Automated_Compliance-6A1B9A?&style=for-the-badge&logo=gitlab&logoColor=white" />
-</div>
-
-### Governance & Compliance
-<div>
-    <img src="https://img.shields.io/badge/-NIST-1565C0?&style=for-the-badge&logo=nist&logoColor=white" />
-    <img src="https://img.shields.io/badge/-ISO_27001-455A64?&style=for-the-badge&logo=iso&logoColor=white" />
-    <img src="https://img.shields.io/badge/-SOC_2-283593?&style=for-the-badge&logo=datadog&logoColor=white" />
-    <img src="https://img.shields.io/badge/-PCI_DSS-00838F?&style=for-the-badge&logo=visa&logoColor=white" />
-    <img src="https://img.shields.io/badge/-HIPAA-AD1457?&style=for-the-badge&logo=heartbeat&logoColor=white" />
-    <img src="https://img.shields.io/badge/-CMMC-1E88E5?&style=for-the-badge&logo=shield&logoColor=white" />
-    <img src="https://img.shields.io/badge/-SOX-5E35B1?&style=for-the-badge&logo=ledger&logoColor=white" />
-</div>
-
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-</div>
-
-### Vulnerability Management
-<div>
-    <img src="https://img.shields.io/badge/-Tenable-3E4D88?&style=for-the-badge&logo=Tenable&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Qualys-0072C6?&style=for-the-badge&logo=qualys&logoColor=white" />
-</div>
-
-
-
-<h2>📜 Certifications:</h2>
-- SEC+: Expected Dec. 2025 <br>- CompTIA CySA+: Expected Jul. 2026 
-
-## 🤳 Connect with Me:
-[![LinkedIn](https://www.linkedin.com/in/trevinoparker](https://www.linkedin.com/in/travis-young-516156102/))
-
 
 ![Quote](https://github-readme-quotes-bay.vercel.app/quote?theme=tokyonight&animation=default&quoteCategory=motivational)
+# HackerOne: Zero to First Bounty — A How-To
+ 
+A practical, execution-first guide. Built for a blue-team/Azure SOC background, where web-app offense is the gap to close. Treat this as a paid weekend skill-gym that feeds your portfolio and content — not a second job competing with CySA+.
+ 
+---
+ 
+## Set expectations first
+ 
+This is an offensive skillset, separate from your SOC track. The realistic curve looks like this:
+ 
+- **Months 1–3:** learning + practicing, $0. This is normal — do not quit here.
+- **Months 4–6:** first valid reports, $0–500.
+- **Months 7–12:** consistent findings, ~$500–2,000/month if you stay at it.
+The barrier to your first accepted report is *not* technical genius. It's scope selection, methodology, and report quality — fix those three in order and the first acceptance is weeks away, not years.
+ 
+---
+ 
+## Step 1 — Create and set up your account
+ 
+1. Sign up at **hackerone.com** (free). Use a professional handle — it becomes your public researcher identity and goes on your resume.
+2. Turn on **2FA** immediately.
+3. Complete your profile: bio, skills, link your GitHub (your Azure SOC lab repo is a credibility signal here).
+4. Set up payouts. Validated, severity-agreed reports typically pay out within a few days to several weeks; total submission-to-payment often runs 2–8 weeks, with triage time the biggest variable. Payments process through PayPal, bank transfer, or crypto.
+5. **Tax note:** bounty income is taxable. In the US, over $600 from a single platform triggers a 1099.
+---
+ 
+## Step 2 — Close the skill gap before you hunt
+ 
+Your SOC training teaches detection, not exploitation. Minimum web-offense foundation before touching a live target:
+ 
+- **How the web works:** HTTP, DNS, cookies, sessions, headers.
+- **Burp Suite** (Community edition is free) — the core tool. Learn proxying, repeater, intruder.
+- **One vulnerability class at a time.** Beginners fail by spreading across XSS, SQLi, SSRF, IDOR, CSRF all at once and getting mediocre at all of them. Pick ONE (IDOR or XSS are good starts) and learn where it lives, how it behaves, and what triage teams accept as valid.
+- **Practice safely first:** OWASP Juice Shop, DVWA, and TryHackMe's / HackTheBox's "Bug Bounty Hunter" path before live programs.
+- **Study real reports:** read 50+ disclosed reports in HackerOne's **Hacktivity** feed for your chosen bug class. Filter by "low" severity to see what's actually getting triaged and paid.
+---
+ 
+## Step 3 — Pick the right first program
+ 
+Do **not** start on Google, Apple, or Meta — competition there is brutal and even pros go months without a payout.
+ 
+- **Start with a VDP** (Vulnerability Disclosure Program). These pay no cash but award **reputation, signal, and Hall of Fame** — easier to get accepted on and the fastest way to build a track record. The Hall of Fame mention goes straight on your resume.
+- Then move to **beginner-friendly paid programs**: wide scope, fast response times, friendly community reputation. Avoid programs people describe as slow or dismissive.
+- Programs like **Shopify** and **Uber** historically reward simpler recon-based findings (misconfigured subdomains, exposed panels).
+---
+ 
+## Step 4 — Read the scope and safe harbor (do not skip)
+ 
+This is the step most beginners skip and the one that gets them banned or in legal trouble.
+ 
+- The **scope** defines exactly which assets you may test and which you may not. Read it twice.
+- Testing out-of-scope assets, or using forbidden techniques, can violate computer-fraud law like the US **CFAA**.
+- Every program has a **safe-harbor clause** defining your legal protection — confirm it covers what you plan to do before you touch anything.
+---
+ 
+## Step 5 — Recon, then commit to one target
+ 
+- Recon = mapping the target: subdomains, endpoints, API calls, login pages. Tools like Subfinder, Amass, or even Google dorking (`site:target.com`) help.
+- **Spend at least 2 hours a day on a single target. Don't switch.** Target-hopping is why most beginners find nothing.
+- **Do not blind-scan.** Every serious program already runs Nuclei, SQLmap, and Burp scanner against itself. If an automated tool found it in 5 seconds, it's already reported. Use tools to *assist* recon; do your actual testing manually.
+---
+ 
+## Step 6 — Test methodically
+ 
+- Work through every input field, login form, search bar, and API parameter **within scope**.
+- Apply your one chosen bug class systematically. Keep a manual checklist per bug type so you never skip a test case.
+- Never run a tool you don't understand — it can cause unintended harm and break program rules.
+---
+ 
+## Step 7 — Write a report that gets paid
+ 
+A great finding with a weak report gets closed. Structure every report:
+ 
+1. **Title** — clear, specific (e.g., "IDOR in /api/users/{id} exposes other users' email").
+2. **Summary** — what the bug is and why it matters.
+3. **Steps to reproduce** — numbered, exact, copy-pasteable. Include requests/responses.
+4. **Impact** — what an attacker could actually do.
+5. **Proof of concept** — screenshots, request captures, or a short video.
+**Self-triage test before hitting submit:** *"If I were the developer, could I fix this from my report alone?"* If no, keep writing. And never beg — no "please give me a high bounty, I'm a student." The work speaks for itself.
+ 
+---
+ 
+## Step 8 — Submit, iterate, build reputation
+ 
+- Submit through the program's report form. Triage reviews it, assigns severity, and (if paid) processes the bounty.
+- Track every submission in your tracker — this maps directly to the Threat-Intel pipeline you already built.
+- Reputation and signal scores rise with valid reports and fall with spam/invalid ones — quality over volume.
+- Join the community: HackerOne Discord, r/bugbounty, NahamSec's Discord.
+---
+ 
+## Common mistakes that kill beginners
+ 
+- Chasing top-tier programs on day one.
+- Learning every bug class at once instead of mastering one.
+- Blind automated scanning.
+- Switching targets every day.
+- Skipping the scope document.
+- Low-effort reports the developer can't act on.
+---
+ 
+## How this feeds your actual career
+ 
+- A **VDP Hall of Fame** entry + a real CVE/finding is resume gold for SOC/analyst roles — it proves offensive understanding most blue-team applicants lack.
+- Every finding (sanitized, post-disclosure) is **anchor content**: a build log, a "how I found my first bug" writeup, a methodology breakdown.
+- Knowing how attacks are *found* makes you sharper at *detecting* them — directly useful for your Azure SOC detection work.
+**This week's move:** create the account, turn on 2FA, pick ONE bug class, and read 20 Hacktivity reports on it. That's the whole task. Don't hunt yet.
