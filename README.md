@@ -1,134 +1,127 @@
-#!/usr/bin/env bash
-# deploy-to-github.sh
-# Push the Citadel site to GitHub and publish it on GitHub Pages.
-#
-# Run this from the folder that contains index.html:
-#     chmod +x deploy-to-github.sh
-#     ./deploy-to-github.sh                       # repo: youngtravis03.github.io (clean root)
-#     ./deploy-to-github.sh citadel-site          # repo: a named project site
-#
-# If the GitHub CLI (gh) is installed and logged in, this creates the repo,
-# pushes, and turns on Pages automatically. Without gh, it pushes to a repo you
-# created on github.com first, then tells you the one click to enable Pages.
-
-set -euo pipefail
-
-# ----- config -------------------------------------------------------------
-GH_USER="YoungTravis03"                       # your GitHub username
-REPO="${1:-youngtravis03.github.io}"          # default = user site (served at root)
-VISIBILITY="public"                           # Pages free tier requires public
-USER_LC="$(echo "$GH_USER" | tr '[:upper:]' '[:lower:]')"
-
-# ----- preflight ----------------------------------------------------------
-if [ ! -f index.html ]; then
-  echo "[-] index.html not found in $(pwd). cd into the site folder and re-run."
-  exit 1
-fi
-
-# ----- secret scan (do NOT ship keys to a public repo) --------------------
-echo "[*] Scanning for secrets before commit..."
-PATTERN='sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----|(OPENAI|API|SECRET)_?KEY[[:space:]]*=[[:space:]]*["'"'"']?[A-Za-z0-9_-]{12,}'
-if grep -RInE --exclude-dir=.git "$PATTERN" . >/dev/null 2>&1; then
-  echo "[-] Possible secret detected:"
-  grep -RInE --exclude-dir=.git "$PATTERN" . | sed 's/^/      /'
-  echo "[-] Aborting. Remove the secret (use a .gitignore / env var) and re-run."
-  echo "    Note: your Formspree endpoint is safe to expose; this is for real keys."
-  exit 1
-fi
-echo "[+] No secrets found."
-
-# ----- generate supporting files if missing -------------------------------
-if [ ! -f .gitignore ]; then
-  echo "[*] Creating .gitignore"
-  cat > .gitignore <<'GI'
-# secrets / env
-.env
-.env.*
-*.key
-*.pem
-secrets.*
-
-# os / editor
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# deps / build
-node_modules/
-__pycache__/
-*.log
-GI
-fi
-
-if [ ! -f README.md ]; then
-  echo "[*] Creating README.md"
-  cat > README.md <<'RM'
-# Citadel Threat Intelligence Group, LLC
-
-Public site for Citadel Threat Intelligence Group — guided paths through
-CompTIA Security+, CySA+, and PenTest+, taught from real SOC and bug-bounty work.
-
-- **Live site:** published via GitHub Pages
-- **Owner:** Travis Young
-- **Contact:** CTIG2026@outlook.com
-
-## Editing
-Everything is in `index.html` (HTML/CSS/JS in one file).
-- Videos: edit the `videos` array in the script block.
-- Registration: set `FORMSPREE_ENDPOINT` to your Formspree form URL.
-
-> Public repo. Never commit API keys or secrets.
-RM
-fi
-
-# ----- git init + commit --------------------------------------------------
-if [ ! -d .git ]; then
-  echo "[*] Initializing git repo"
-  git init -q
-fi
-git add .
-git commit -qm "Deploy Citadel site" || echo "[*] Nothing new to commit."
-git branch -M main
-
-# ----- path A: GitHub CLI available --------------------------------------
-if command -v gh >/dev/null 2>&1 && gh auth status >/dev/null 2>&1; then
-  echo "[*] GitHub CLI detected and authenticated."
-  if gh repo view "$GH_USER/$REPO" >/dev/null 2>&1; then
-    echo "[*] Repo exists; pushing."
-    git remote get-url origin >/dev/null 2>&1 \
-      || git remote add origin "https://github.com/$GH_USER/$REPO.git"
-    git push -u origin main
-  else
-    echo "[*] Creating repo $GH_USER/$REPO ($VISIBILITY) and pushing."
-    gh repo create "$GH_USER/$REPO" "--$VISIBILITY" --source=. --remote=origin --push
-  fi
-
-  echo "[*] Enabling GitHub Pages (main / root)..."
-  gh api --method POST "repos/$GH_USER/$REPO/pages" \
-      -f 'source[branch]=main' -f 'source[path]=/' >/dev/null 2>&1 \
-      || echo "    (Pages may already be enabled — check Settings > Pages.)"
-
-# ----- path B: plain git (repo must already exist on github.com) ----------
-else
-  echo "[*] GitHub CLI not found. Using plain git."
-  echo "    First create an EMPTY repo at: https://github.com/new"
-  echo "    Name it exactly: $REPO   (Public, no README/license)."
-  git remote get-url origin >/dev/null 2>&1 \
-    || git remote add origin "https://github.com/$GH_USER/$REPO.git"
-  git push -u origin main
-  echo
-  echo "[!] Now enable Pages once: repo > Settings > Pages >"
-  echo "    Source 'Deploy from a branch' > Branch 'main' / '/ (root)' > Save."
-fi
-
-# ----- final URL ----------------------------------------------------------
-if [ "$REPO" = "${USER_LC}.github.io" ]; then
-  SITE="https://${USER_LC}.github.io/"
-else
-  SITE="https://${USER_LC}.github.io/${REPO}/"
-fi
-echo
-echo "[+] Done. In ~1 minute your site will be live at:"
-echo "      $SITE"
-echo "    (HTTPS is automatic. Add a custom domain later in Settings > Pages.)"
+🛡️ Agentic Threat-Hunt Agent
+> **Cyber Range track** · `request → KQL → guardrails → hunt → remediation`
+> Citadel Threat Intelligence Group
+An LLM-driven threat-hunting agent for Microsoft Sentinel / MDE. Deterministic code
+orchestrates the loop; the model analyzes, it does not drive. Every destructive
+action is human-gated, every guardrail fails closed.
+<p>
+  <img alt="status" src="https://img.shields.io/badge/status-build--checklist-0a8f5b">
+  <img alt="loop" src="https://img.shields.io/badge/control%20flow-deterministic-1f6feb">
+  <img alt="posture" src="https://img.shields.io/badge/posture-fail%20closed-c0392b">
+  <img alt="human" src="https://img.shields.io/badge/remediation-human%20approved-e67e22">
+  <img alt="privilege" src="https://img.shields.io/badge/access-least%20privilege-6f42c1">
+</p>
+---
+⭐ Five Golden Rules
+> **Break one and the project fails.**
+#	Rule	Why
+1	Fail closed	On any uncertainty, stop or deny — never proceed by default.
+2	Read before write	No remediation wired until the read-only hunt is rock solid.
+3	No autonomous isolation	A human approves every destructive action. No exceptions.
+4	Evidence is real or it doesn't ship	No fabricated log lines, no inferred IOCs.
+5	No secrets in the repo	Keys live in environment variables. Always.
+---
+🧭 Architecture
+```mermaid
+flowchart LR
+    A[Request<br/>analyst intent] --> B[Tool Selection<br/>→ vetted KQL]
+    B --> C{Guardrails<br/>deny by default}
+    C -->|pass| D[LLM Analysis<br/>temperature 0]
+    C -->|violation| X[Fail closed]
+    D --> E[Structured Findings<br/>JSON schema]
+    E --> G{{Human Gate<br/>approval required}}
+    G -->|approve| R[Remediation<br/>isolate · scoped · reversible]
+    G -->|deny| X
+    style C fill:#3a1d1d,stroke:#c0392b,color:#fff
+    style G fill:#3a2a12,stroke:#e67e22,color:#fff
+    style R fill:#1d2a3a,stroke:#1f6feb,color:#fff
+    style X fill:#3a1d1d,stroke:#c0392b,color:#fff
+```
+Module boundaries — each owns one responsibility:
+`tools` · `guardrails` · `prompts` · `output` · `remediation`
+---
+✅ Build Sequence
+Work top to bottom. Don't wire section n+1 until n holds.
+0 · Setup & Access
+> _Prevents: leaked keys and over-broad permissions._
+[ ] LLM API key in an environment variable — never in code or git history
+[ ] Agent lives in a private repo, separate from your public brand site
+[ ] Sentinel / MDE access scoped read-only for the hunt phase (least privilege)
+[ ] A cost/billing alert is set on the LLM account before the first run
+1 · Flowchart Before Code
+> _Prevents: building a tangle you can't reason about._
+[ ] Diagram the loop: request → tool selection → KQL → guardrails → LLM analysis → structured findings → (gated) remediation
+[ ] Each module owns one responsibility: tools / guardrails / prompts / output / remediation
+[ ] Every human-in-the-loop gate is marked on the diagram
+[ ] You've defined what "fail closed" means at each step
+2 · Baseline Agent Loop
+> _Prevents: the LLM silently driving the whole system._
+[ ] Control flow is deterministic code; the LLM analyzes, it does not orchestrate
+[ ] Every step emits a log line (its input, its decision, its output)
+[ ] Errors stop the loop and surface — no silent continue, no swallowed exceptions
+3 · Tool Selection: Request → KQL
+> _Prevents: arbitrary or unsafe queries against prod._
+[ ] User intent maps to a vetted query/table — the model never freeforms raw KQL against production
+[ ] The chosen table is validated against the allowlist before any query runs
+[ ] Time range and scope are parameters with hard caps, not model-chosen
+[ ] `GUARDRAILS.validate_table()` / `enforce_time_window()`
+4 · Guardrails
+> _Prevents: cost blowups, data leakage, off-limits access._
+[ ] Allowlists for tables, fields, and models — deny by default
+[ ] Time-window + row/byte caps applied before anything reaches the model
+[ ] PII redaction (tokenize) before the LLM; rehydrate IOCs after analysis
+[ ] Every guardrail fails closed on violation
+[ ] `GUARDRAILS.py` → `guard_request`, `cap_rows_bytes`, `redact_pii`
+5 · Prompt Engineering / Threat Hunt
+> _Prevents: hallucinated findings an analyst acts on._
+[ ] A system identity locks SOC-analyst behavior
+[ ] Per-table playbooks are injected as context for the log type in hand
+[ ] Output schema is enforced structurally (JSON schema), not just asked for in prose
+[ ] Hard rules: verbatim `log_lines`, extracted-not-inferred IOCs, empty findings is valid
+[ ] `temperature 0` for determinism and repeatability
+[ ] `PROMPT_MANAGEMENT.py` → system prompt, table prompts, `FINDINGS_JSON_SCHEMA`
+6 · Output Handling
+> _Prevents: garbage flowing downstream undetected._
+[ ] Validate the model's JSON against the schema; reject or retry on mismatch
+[ ] Rehydrate redacted IOCs back to real values for the analyst
+[ ] Confirm MITRE mapping, confidence, and recommendations are present on every finding
+7 · Agentic Remediation: VM Isolation  ⚠️ HIGH RISK
+> _Prevents: a catastrophic automated action you can't undo._
+[ ] Human approval is REQUIRED before any isolate / disable / block. No exceptions.
+[ ] Plan-then-apply: show the action and target, dry-run, then execute on confirmation
+[ ] Blast-radius cap: one host/account per action — never fleet-wide in a single call
+[ ] Remediation uses separate, tightly-scoped credentials — not the hunt's read creds
+[ ] Full audit log; every action is reversible
+[ ] `GUARDRAILS.REMEDIATION_POLICY` / `authorize_remediation()`
+8 · Validate Before You Trust It
+> _Prevents: shipping an agent that lies or misses._
+[ ] Test against a known-good / purple-team dataset with planted findings
+[ ] Confirm it finds the true positives you planted
+[ ] Confirm it returns empty on clean data — no invented findings
+[ ] Measure token cost per run and set a ceiling
+[ ] Hand-review a sample of runs before you trust the output
+9 · Always-On (every phase)
+> _Prevents: the slow-burn mistakes that sink projects._
+[ ] Secrets never enter the repo (the deploy script's secret scan is your safety net)
+[ ] Prompts are versioned so you can correlate output quality to changes
+[ ] Least privilege everywhere; the agent can only touch what it must
+[ ] Observability: you can reconstruct what the agent did, and why, from logs
+---
+🗂️ Repository Layout
+```text
+.
+├── GUARDRAILS.py          # allowlists, caps, redaction, remediation policy
+├── PROMPT_MANAGEMENT.py   # system prompt, per-table playbooks, findings schema
+├── agent/                 # deterministic control loop (LLM = analysis only)
+├── tools/                 # request → vetted KQL mapping
+├── remediation/           # human-gated, scoped, reversible actions
+└── tests/                 # purple-team dataset + planted findings
+```
+---
+🔒 Threat Model in One Line
+> The model can be wrong, prompt-injected, or hallucinate — so it never holds
+> credentials, never orchestrates, and never touches a host without a human `yes`.
+---
+<sub>Built from the Cyber Range module outline plus existing `PROMPT_MANAGEMENT.py` and
+`GUARDRAILS.py`. This maps the architecture, not lesson-specific content — paste the
+flowchart details to tailor it further.</sub>
